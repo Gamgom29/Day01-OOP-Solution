@@ -30,18 +30,22 @@
             #endregion
 
             #region Q02
+
+            #endregion
+
+            #region Q03
             /*Console.Write("Enter Season Name : ");
-            Enum.TryParse(Console.ReadLine() , true , out Season season);
-            if(season == (Season) 1 ) Console.WriteLine("March To May");
+           Enum.TryParse(Console.ReadLine() , true , out Season season);
+           if(season == (Season) 1 ) Console.WriteLine("March To May");
 
-            else if (season == (Season) 2) Console.WriteLine("June To August");
+           else if (season == (Season) 2) Console.WriteLine("June To August");
 
-            else if (season == (Season)3) Console.WriteLine("Septemper To November");
+           else if (season == (Season)3) Console.WriteLine("Septemper To November");
 
-            else if (season == (Season)4) Console.WriteLine("December To February");
+           else if (season == (Season)4) Console.WriteLine("December To February");
 
-            else Console.WriteLine("Invalid Season Name");
-            */
+           else Console.WriteLine("Invalid Season Name");
+           */
             #endregion
         }
     }
