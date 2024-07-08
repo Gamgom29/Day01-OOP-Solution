@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AssignmetLibrary
 {
-    enum WeekDays : byte
+    public enum WeekDays : byte
     {
         Monday = 1,
         Tuesday = 2,
@@ -17,12 +17,16 @@ namespace AssignmetLibrary
         Sunday = 7,
     }
 
-    enum Season : byte
+    public enum Season : byte
     {
         Spring = 1, Summer, Autumn, Winter
     }
 
-
+    [Flags]
+    public enum Permission
+    {
+        Read = 1  , Write = 2  , Delete = 4 , Execute = 8
+    }
     public struct Person
     {
         private string name;
