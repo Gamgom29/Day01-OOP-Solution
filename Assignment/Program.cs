@@ -60,10 +60,43 @@ namespace Assignment
             #endregion
 
             #region Q05
-           /* Console.Write("Enter a color name :  ");
-            Enum.TryParse(Console.ReadLine(), true, out Color color);
-            if(color == Color.Red || color == Color.Blue || color == Color.Green) Console.WriteLine("Primary Color");
-            else Console.WriteLine("Not Primary Color");*/
+            /* Console.Write("Enter a color name :  ");
+             Enum.TryParse(Console.ReadLine(), true, out Color color);
+             if(color == Color.Red || color == Color.Blue || color == Color.Green) Console.WriteLine("Primary Color");
+             else Console.WriteLine("Not Primary Color");*/
+            #endregion
+
+            #region Q06
+            /* Point P1 = new Point(1, 2);
+             Point P2 = new Point(7, 7);
+
+             float Distance = (float) Math.Sqrt( Math.Pow((P2.X - P1.X) , 2) + Math.Pow(( P2.Y - P1.Y) , 2));
+             Console.WriteLine($"The Distance Between P1 And P2 Is : {Distance}");*/
+            #endregion
+
+            #region Q07
+            /*Person[] Persons = new Person[3];
+            int idx = 0;
+            int mx = -1;
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"Data for Person {i+1}");
+                Console.Write("Enter Person Name: ");
+                string Name = Console.ReadLine() ?? "No Name";
+                Console.Write("Enter Person Age: ");
+                int.TryParse(Console.ReadLine(), out int Age);
+                Console.WriteLine();
+                Persons[i] = new Person(Name, Age);
+                if (Persons[i].Age > mx) 
+                {
+                    idx = i;
+                    mx = Persons[i].Age;
+                }
+            }
+            Console.Clear();
+            Console.WriteLine("The Data Of Oldest Person :");
+            Console.WriteLine(Persons[idx].ToString());*/
+
             #endregion
         }
     }

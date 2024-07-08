@@ -60,4 +60,29 @@ namespace AssignmetLibrary
         Red = 1, Green = 2, Blue = 3
     }
 
+    public struct Point
+    {
+        private int x;
+        private int y;
+
+        public int Y
+        {
+            get { return y; }
+            set { y = value; }
+        }
+
+        public int X
+        {
+            get { return x; }
+            set { x = value; }
+        }
+
+        public Point(int x , int y)
+        {
+            this.x = x;
+            this.y = y;
+        }
+
+    }
+
 }
