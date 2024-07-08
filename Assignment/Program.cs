@@ -67,11 +67,33 @@ namespace Assignment
             #endregion
 
             #region Q06
-            /* Point P1 = new Point(1, 2);
-             Point P2 = new Point(7, 7);
+            /*Point P1 = new Point(1, 2);
+            Point P2 = new Point(7, 7);
 
-             float Distance = (float) Math.Sqrt( Math.Pow((P2.X - P1.X) , 2) + Math.Pow(( P2.Y - P1.Y) , 2));
-             Console.WriteLine($"The Distance Between P1 And P2 Is : {Distance}");*/
+            for (int i = 0; i < 2; i++) 
+            {
+                Console.WriteLine($"Enter Point {i+1}");
+                Console.Write($"X{i+1}: ");
+                int.TryParse(Console.ReadLine(), out int x);
+
+                Console.Write($"Y{i + 1}: ");
+                int.TryParse(Console.ReadLine(), out int y);
+
+                if(i == 0)
+                {
+                    P1.X = x;
+                    P1.Y = y;
+                }
+                else
+                {
+                    P2.X = x;
+                    P2.Y = y;
+                }
+            }
+
+            Console.Clear();
+            float Distance = (float)Math.Sqrt(Math.Pow((P2.X - P1.X), 2) + Math.Pow((P2.Y - P1.Y), 2));
+            Console.WriteLine($"The Distance Between P1 And P2 Is : {Distance}");*/
             #endregion
 
             #region Q07
