@@ -1,14 +1,19 @@
 ﻿namespace Assignment
 {
-    enum WeekDays
+    enum WeekDays:byte
     {
-        Monday = 1 , 
+        Monday = 1,
         Tuesday = 2,
-        Wednesday = 3 ,
-        Thursday = 4 ,
-        Friday = 5 ,
-        Saturday = 6 ,
-        Sunday = 7 ,
+        Wednesday = 3,
+        Thursday = 4,
+        Friday = 5,
+        Saturday = 6,
+        Sunday = 7,
+    }
+
+    enum Season:byte 
+    {
+        Spring = 1, Summer ,Autumn , Winter
     }
 
 
@@ -25,7 +30,18 @@
             #endregion
 
             #region Q02
+            /*Console.Write("Enter Season Name : ");
+            Enum.TryParse(Console.ReadLine() , true , out Season season);
+            if(season == (Season) 1 ) Console.WriteLine("March To May");
 
+            else if (season == (Season) 2) Console.WriteLine("June To August");
+
+            else if (season == (Season)3) Console.WriteLine("Septemper To November");
+
+            else if (season == (Season)4) Console.WriteLine("December To February");
+
+            else Console.WriteLine("Invalid Season Name");
+            */
             #endregion
         }
     }
