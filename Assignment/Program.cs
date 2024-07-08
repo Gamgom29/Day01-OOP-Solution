@@ -58,6 +58,13 @@ namespace Assignment
             else Console.WriteLine("Permission dosen't Exist");
 */
             #endregion
+
+            #region Q05
+           /* Console.Write("Enter a color name :  ");
+            Enum.TryParse(Console.ReadLine(), true, out Color color);
+            if(color == Color.Red || color == Color.Blue || color == Color.Green) Console.WriteLine("Primary Color");
+            else Console.WriteLine("Not Primary Color");*/
+            #endregion
         }
     }
 }
