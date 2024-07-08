@@ -81,12 +81,12 @@ namespace Common
         }
     }
 
-    public enum Gender
+/*    public enum Gender
     {
-        Male, 
-        Female
+        Male = 1, 
+        Female = 2
     }
-
+*/
    /* public class Employee
     {
         private protected int Id;
