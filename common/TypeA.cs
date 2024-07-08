@@ -26,6 +26,31 @@ namespace Common
         /// 2. Properties [Full , Automatic , indexer] 
         /// 3. Functions [Constructor , Getter Setter , Method]
         /// 4. Events
+        /// 
+
+        /// Allowed Access Modifires inside the struct
+        /// 1. private
+        /// 2. internal
+        /// 3. public
+
+        /// Allowed Access Modifires inside the class
+        /// 1. private
+        /// 2. private protected
+        /// 3. protected
+        /// 4. internal
+        /// 5. internal protected
+        /// 6. public
+
+        /// Default Access Modifier inside class or struct is Private
+
+        /*private*/ int X;
+        internal int Y;
+        public int Z;
+
+        public void pirnt()
+        {
+            Console.WriteLine(X);
+        }
     }
 
     // Code Contract Between the Developers
@@ -35,6 +60,15 @@ namespace Common
         /// 1. Signature for Method 
         /// 2. Signature for Property
         /// 3. C# 8.0 Default Implemented Method [.Net Core 3.1]
+
+        /// Allowed Access Modifires inside the interface
+        /// 1. private protected
+        /// 2. protected
+        /// 3. internal
+        /// 4. internal protected
+        /// 5. public
+        
+        // public is default accesss modifier inside the interface
         void Accelerate() { }
 
     }
@@ -52,4 +86,23 @@ namespace Common
         Male, 
         Female
     }
+
+   /* public class Employee
+    {
+        private protected int Id;
+        private protected string? Name;
+    }
+    public class FullTimeEmployee : Employee
+    {
+        private int Id;
+        private string? Name;
+        private decimal? Salary;
+    }
+    public class PartTimeEmployee : Employee
+    {
+        private int Id;
+        private string? Name;
+        private decimal? HourRate;
+    }*/
+
 }
