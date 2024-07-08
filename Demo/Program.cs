@@ -1,10 +1,15 @@
-﻿namespace Demo
+﻿using Common;
+namespace Demo
 {
     internal class Program
     {
+        static void Run(ICar car)
+        {
+
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            TypeA obj = new TypeA();
         }
     }
 }
