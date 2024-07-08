@@ -1,22 +1,7 @@
-﻿namespace Assignment
+﻿
+using AssignmetLibrary;
+namespace Assignment
 {
-    enum WeekDays:byte
-    {
-        Monday = 1,
-        Tuesday = 2,
-        Wednesday = 3,
-        Thursday = 4,
-        Friday = 5,
-        Saturday = 6,
-        Sunday = 7,
-    }
-
-    enum Season:byte 
-    {
-        Spring = 1, Summer ,Autumn , Winter
-    }
-
-
     internal class Program
     {
         static void Main(string[] args)
@@ -30,7 +15,17 @@
             #endregion
 
             #region Q02
+          /*  Person[] persons = new Person[3];
+            persons[0] = new Person("Abdelrahman Gamgom" , 21);
+            persons[1] = new Person("Ahmed Mohamed", 25);
+            persons[2] = new Person("Ali", 20);
 
+            for (int i = 0; i < persons.Length; i++) 
+            {
+                Console.WriteLine($"Person {i+1} Informations");
+                Console.WriteLine(persons[i].ToString());
+                Console.WriteLine();
+            }*/
             #endregion
 
             #region Q03
